@@ -14,6 +14,7 @@ wget --no-check-certificate https://pypi.python.org/packages/source/s/setuptools
 tar xvf setuptools-1.4.2.tar.gz
 rm -rf setuptools-1.4.2.tar.gz
 cd setuptools-1.4.2
+python2.7 setup.py install
 curl https://bootstrap.pypa.io/get-pip.py | python2.7
 pip install virtualenv
 pip install neo4jrestclient
