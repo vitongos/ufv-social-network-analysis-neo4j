@@ -27,5 +27,9 @@ g <- graph.data.frame(edgelist, directed = F)
 g
 
 # Mostrar el grafo
-plot(g, edge.color='Black',vertex.size=10)
+plot(g, 
+	edge.color='Black',
+	vertex.size=10,
+	vertex.label.cex=.8,
+	layout=layout.fruchterman.reingold(g,niter = 10000))
 

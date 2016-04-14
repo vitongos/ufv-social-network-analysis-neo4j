@@ -40,6 +40,15 @@ deploy/eclipse.sh
 Instalar el plugin PyDev en Eclipse:
 [https://dl.bintray.com/fabioz/pydev/4.5.5/](https://dl.bintray.com/fabioz/pydev/4.5.5/)
 
+
+### Instalar paquetes de R
+Ejecutar el siguiente script (puede tardar un poco):
+```bash
+cd ~/neo4j-src/src
+deploy/r.sh
+```
+
+
 ### Instalar Java 8
 Descargar [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
